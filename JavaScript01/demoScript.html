@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta http-equiv="X-UA-Compatible" content="ie=edge">
+ <title>Manipuler le DOM</title>
+</head>
+
+
+<body>
+ <div id="maDiv">
+     <!-- la barre oblique signifie la racine de notre site -->
+   <p id="test" class="maClasse maClasse2 maClasse3">Un texte avec un <a id="lien" href="/" >lien</a></p>
+ </div>
+<p id="time"></p>
+ <button type="button" onclick="document.getElementById('time').innerHTML = Date()"> click to display time and date
+</button>
+</body>
+<script src="js/demoScript.js"></script>
+</html>
